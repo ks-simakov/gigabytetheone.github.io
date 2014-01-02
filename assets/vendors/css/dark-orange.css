@@ -720,7 +720,7 @@ ul.entry-meta li {
 	background-color:#F86D18;
 }
 .page-header, .newsletter{
-	background-image:url(../images/slider/rs/hexagones.png);
+	/*background-image:url(../images/slider/rs/hexagones.png);*/
 	background-repeat:no-repeat;
 	background-position:right;
 	border-bottom:0.5em solid #fff;
