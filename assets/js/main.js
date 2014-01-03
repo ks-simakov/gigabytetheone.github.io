@@ -14,7 +14,10 @@ $(function () {
         $('html,body').animate({
           scrollTop: pos
         }, 600);
-        // return false;
+
+        if (!$(this).attr('data-toggle')) {
+          return false;
+        }
       }
     }
   });
