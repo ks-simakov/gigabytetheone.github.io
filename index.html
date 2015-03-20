@@ -4,7 +4,7 @@
   <title>Konstantin Simakov. Mobile Applications Developer</title>
 
   <meta name="description" content="Personal web-page / Личная страничка">
-  <meta name="author" content="Konstantin Simakov / Константин Симаков">
+  <meta name="author" content="Daria Kazantseva / Дарья Казанцева">
   <meta name="keywords" content="Konstantin Simakov, Константин Симаков, iOS, iPhone, iPad, Development, Mobile Applications">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -15,18 +15,19 @@
 
   <link type="text/css" rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css">
   <link type="text/css" rel="stylesheet" href="assets/vendors/css/layout.css">
-  <link type="text/css" rel="stylesheet" href="assets/vendors/css/dark-orange.css">
   <link type="text/css" rel="stylesheet" href="assets/vendors/css/custom-icons.css">
   <link type="text/css" rel="stylesheet" href="assets/vendors/fontello/css/fontello-embedded.css">
   <link type="text/css" rel="stylesheet" href="assets/vendors/fontello/css/fontello-codes.css">
   <link type="text/css" rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/general.css">
 
   <script type='text/javascript' src='assets/js/jquery.min.js'></script>
   <script type='text/javascript' src='assets/vendors/bootstrap/js/bootstrap.min.js'></script>
+  <script type='text/javascript' src='assets/js/projects.js'></script>
   <script type='text/javascript' src='assets/js/main.js'></script>
 </head>
 
-<body class="headerStyleThin" data-spy="scroll" data-target=".nav">
+<body class="headerStyleThin" data-spy="scroll" data-target=".nav" data-offset="66">
   <div id="globalWrapper">
 
     <header id="mainHeader" class="clearfix">
@@ -36,17 +37,17 @@
             <nav id="mainMenu" class="">
               <ul>
                 <li class="">
-                  <a href="#about" class="firstLevel">
+                  <a href="#about" class="firstLevel scrollspy">
                     About me
                   </a>
                 </li>
                 <li>
-                  <a href="#projects" class="firstLevel">
+                  <a href="#projects" class="firstLevel scrollspy">
                     My projects
                   </a>
                 </li>
                 <li>
-                  <a href="#contacts" class="firstLevel last">
+                  <a href="#contacts" class="firstLevel last scrollspy">
                     Contacts
                   </a>
                 </li>
@@ -70,7 +71,7 @@
               </div>
             </div>
             <div class="span6 offset1">
-              <div class="mt15">
+              <div class="mt15 text-center">
                 <h1>Hello everyone!</h1>
                 <br>
                 <p>
@@ -81,15 +82,14 @@
                 </p>
               </div>
             </div>
-
           </div>
         </div>
       </header>
+
       <div class="container">
         <div class="row">
           <div class="span12">
             <h2>Personal info</h2>
-
 
             <div class="row" style="font-size: 1.3em">
               <div class="span4">
@@ -152,7 +152,7 @@
               <div class="span4">
                 <ul>
                   <li>
-                    Programmer with 5 years of commercial software development experience.
+                    Programmer with 6 years of commercial software development experience.
                   </li>
                   <li>
                     Experience with working both in team and individual projects, mostly efficient with individual projects.
@@ -201,7 +201,6 @@
                       Information Technologies and Computer-Aided Systems
                     </p>
                   </div>
-                  <div class="arrow"></div>
                 </div>
               </div>
 
@@ -221,7 +220,6 @@
                       Project management, mentoring, supervising.
                     </p>
                   </div>
-                  <div class="arrow"></div>
                 </div>
               </div>
 
@@ -238,7 +236,6 @@
                       Developing interactive books editor.
                     </p>
                   </div>
-                  <div class="arrow"></div>
                 </div>
               </div>
 
@@ -258,506 +255,300 @@
               </div>
             </div>
 
-
-          </div>
-
-
-
-        </div>
-
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="color1 slice">
-  <div class="container">
-    <div class="row">
-      <div class="span12">
-        <h2>My hobbies</h2>
-      </div>
-
-      <div class="span12 hobbies mb15">
-        <div class="imgRounded color2 span4">
-          <img src="assets/img/working.jpg" alt="Working" title="Working">
-        </div>
-        <div class="span8 text-left">
-          <h1>Working</h1>
-          <p class="lead">The first thing, that I like to do, is work. Work is my life, I like to create new things and to improve already done projects.</p>
-        </div>
-      </div>
-
-      <div class="span12 hobbies mb15">
-        <div class="imgRounded color2 span4">
-          <img src="assets/img/guitar.jpg" alt="Guitar" title="Guitar">
-        </div>
-        <div class="span8 text-left">
-          <h1>Guitar playing</h1>
-          <p class="lead">I like to play guitar and sing my favorite songs. I play covers of Radiohead, Coldplay, Oasis and other talented groups and singers.</p>
-        </div>
-      </div>
-
-
-      <div class="span12 hobbies mb15">
-        <div class="imgRounded color2 span4">
-          <img src="assets/img/bike.jpg" alt="BMX" title="BMX">
-        </div>
-        <div class="span8 text-left">
-          <h1>Extreme sports</h1>
-          <p class="lead">I ride BMX for 4 years. I'm not professional rider, but I like sometimes to change scenery and warm up in our great extreme park.</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<section id="projects" class="">
-  <header class="page-header">
-    <div class="container">
-      <div class="row">
-        <div class="span12">
-          <h1>My projects</h1>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <div class="container">
-    <div class="row" id="projects-links">
-      <div class="span4">
-        <div class="bulle alignCenter color4">
-          <a href="#pojects-block1" class="iconBig" title="">
-            <i class="fontello-icon-mobile"></i>
-            <div class="offers-block">
-              <h2>Mobile apps</h2>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="span4">
-        <div class="bulle alignCenter color4">
-          <a href="#pojects-block2" class="iconBig" title="">
-            <i class="fontello-icon-globe-3"></i>
-            <div class="offers-block">
-              <h2>Web projects</h2>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="span4">
-        <div class="bulle alignCenter color4">
-          <a href="#pojects-block3" class="iconBig" title="">
-            <i class="fontello-icon-chrome"></i>
-            <div class="offers-block">
-              <h2>Browser extensions</h2>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <hr>
-
-    <div id="pojects-block1" class="">
-      <h2>Mobile apps</h2>
-      <div class="row">
-
-        <div class="span4">
-          <p>
-            I have experience in developing native mobile iOS applications on Objective-C, also I participated in the project, working with phonegap HTML5 framework.<br>
-            I work with iOS since 2011.
-          </p>
-
-          <strong>Known technologies:</strong><br>
-          <ul>
-            <li>
-              Objective-C
-            </li>
-            <li>
-              Core Data
-            </li>
-            <li>
-              SQLite
-            </li>
-            <li>
-              Network
-            </li>
-            <li>
-              Multithreading
-            </li>
-            <li>
-              Core Media (Audio)
-            </li>
-            <li>
-              Core Animations
-            </li>
-            <li>
-              Working with HTML applications (through native JS bridge or phonegap framework)
-            </li>
-          </ul>
-        </div>
-
-        <div class="thumbnails">
-          <div class="span4">
-            <div class="thumbnail">
-              <a href="#" data-toggle="modal" data-target="#ios1">
-                <img src="assets/img/slides/ios1.png" alt="iOS app screenshot" title="iOS app screenshot">
-              </a>
-              <div id="ios1" class="modal fade" tabindex="-1" role="dialog">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-body text-center">
-                      <img src="assets/img/slides/ios1.png" class="img-responsive">
-                    </div>
-                  </div>
+            <h2>My hobbies</h2>
+            <div class="row">
+              <div class="span4 hobbies">
+                <div class="imgRounded">
+                  <img src="assets/img/working.jpg" alt="Working" title="Working">
+                </div>
+                <div class="text-center">
+                  <h5>Working</h5>
+                  <p class="">The first thing, that I like to do, is work. Work is my life, I like to create new things and to improve already done projects.</p>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="span4">
-            <div class="thumbnail">
-              <a href="#" data-toggle="modal" data-target="#ios2">
-                <img src="assets/img/slides/ios2.png" alt="iOS app screenshot" title="iOS app screenshot">
-              </a>
-              <div id="ios2" class="modal fade" tabindex="-1" role="dialog">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-body text-center">
-                      <img src="assets/img/slides/ios2.png" class="img-responsive" alt="iOS app screenshot" title="iOS app screenshot">
-                    </div>
-                  </div>
+
+              <div class="span4 hobbies">
+                <div class="imgRounded">
+                  <img src="assets/img/guitar.jpg" alt="Guitar" title="Guitar">
+                </div>
+                <div class="text-center">
+                  <h5>Guitar playing</h5>
+                  <p class="">I like to play guitar and sing my favorite songs. I play covers of Radiohead, Coldplay, Oasis and other talented groups and singers.</p>
                 </div>
               </div>
-            </div>
-          </div>
-          <div>&nbsp;</div>
-          <div class="span4">
-            <div class="thumbnail">
-              <a href="#" data-toggle="modal" data-target="#ios3">
-                <img src="assets/img/slides/ios3.jpeg" alt="iOS app screenshot" title="iOS app screenshot">
-              </a>
-              <div id="ios3" class="modal fade" tabindex="-1" role="dialog">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-body text-center">
-                      <img src="assets/img/slides/ios3.jpeg" class="img-responsive" alt="iOS app screenshot" title="iOS app screenshot">
-                    </div>
-                  </div>
+
+
+              <div class="span4 hobbies">
+                <div class="imgRounded">
+                  <img src="assets/img/bike.jpg" alt="BMX" title="BMX">
                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="span4">
-            <div class="thumbnail">
-              <a href="#" data-toggle="modal" data-target="#ios4">
-                <img src="assets/img/slides/ios4.jpeg" alt="iOS app screenshot" title="iOS app screenshot">
-              </a>
-              <div id="ios4" class="modal fade" tabindex="-1" role="dialog">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-body text-center">
-                      <img src="assets/img/slides/ios4.jpeg" class="img-responsive" alt="iOS app screenshot" title="iOS app screenshot">
-                    </div>
-                  </div>
+                <div class="text-center">
+                  <h5>Extreme sports</h5>
+                  <p class="">I ride BMX for 4 years. I'm not professional rider, but I like sometimes to change scenery and warm up in our great extreme park.</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
 
-    <hr>
 
 
-    <div id="pojects-block2" class="">
-      <h2>Web apps</h2>
-      <div class="row">
-        <div class="span4">
-
-          <p>
-            I developed several web projects for budget organizations, rich internet applications and landing pages
-          </p>
-          <strong>Known technologies:</strong><br>
-          <ul>
-            <li>
-              Asp.Net / C#
-            </li>
-            <li>
-              Node.js
-            </li>
-            <li>
-              PHP
-            </li>
-            <li>
-              HTML / HTML5
-            </li>
-            <li>
-              CSS
-            </li>
-            <li>
-              JavaScript / JQuery / Backbone
-            </li>
-            <li>
-              MSSQL / MySQL
-            </li>
-            <li>
-              MongoDB
-            </li>
-            <li>
-              XML / JSON / SOAP
-            </li>
-          </ul>
-        </div>
-
-        <div class="thumbnails">
-          <div class="span4">
-            <div class="thumbnail">
-              <a href="#" data-toggle="modal" data-target="#web1">
-                <img src="assets/img/slides/web1.png" alt="web app screenshot" title="web app screenshot">
-              </a>
-              <div id="web1" class="modal fade" tabindex="-1" role="dialog">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-body text-center">
-                      <img src="assets/img/slides/web1.png" alt="web app screenshot" title="web app screenshot" class="img-responsive">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="span4">
-            <div class="thumbnail">
-              <a href="#" data-toggle="modal" data-target="#web2">
-                <img src="assets/img/slides/web2.png" alt="web app screenshot" title="web app screenshot">
-              </a>
-              <div id="web2" class="modal fade" tabindex="-1" role="dialog">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-body text-center">
-                      <img src="assets/img/slides/web2.png" alt="web app screenshot" title="web app screenshot" class="img-responsive">
-                    </div>
-                  </div>
-                </div>
-              </div>
+    <section id="projects" class="">
+      <header class="page-header">
+        <div class="container">
+          <div class="row">
+            <div class="span12">
+              <h1>My projects</h1>
             </div>
           </div>
         </div>
+      </header>
 
-      </div>
-    </div>
+      <div class="container">
 
+        <div id="pojects-block1" class="">
+          <h2>Mobile apps</h2>
+          <div class="row">
 
-    <hr>
-
-
-    <div id="pojects-block3" class="">
-      <h2>Browser extensions</h2>
-      <div class="row">
-        <div class="span4">
-
-          <p>
-            I can develop any browser extension for Firefox, Google Chrome or Safari.  <br>
-            Also, I have own Google Chrome extension in Chrome Store.
-          </p>
-
-          <strong>Known technologies:</strong><br>
-          <ul>
-            <li>
-              JavaScript
-            </li>
-            <li>
-              Google Chrome Extensions API
-            </li>
-            <li>
-              Working with Data through AJAX
-            </li>
-            <li>
-              VK social network API
-            </li>
-          </ul>
-        </div>
-
-        <div class="thumbnails">
-          <div class="span4">
-            <div class="thumbnail">
-              <a href="#" data-toggle="modal" data-target="#ext1">
-                <img src="assets/img/slides/ext1.png" alt="extension screenshot" title="extension screenshot">
-              </a>
-              <div id="ext1" class="modal fade" tabindex="-1" role="dialog">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-body text-center">
-                      <img src="assets/img/slides/ext1.png" alt="extension screenshot" title="extension screenshot" class="img-responsive">
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div class="span6 text-center mobile_app" id="budget">
+              <img src="assets/img/slides/open-budget-1.png">
+              <h3>"Open Budget" app prototype</h3>
+              <label>Application with Moscow budget data, analytics, data visualizers and maps</label>
             </div>
-          </div>
-          <div class="span4">
-            <div class="thumbnail">
-              <a href="#" data-toggle="modal" data-target="#ext2">
-                <img src="assets/img/slides/ext2.png" alt="extension screenshot" title="extension screenshot">
-              </a>
-              <div id="ext2" class="modal fade" tabindex="-1" role="dialog">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-body text-center">
-                      <img src="assets/img/slides/ext2.png" alt="extension screenshot" title="extension screenshot" class="img-responsive">
-                    </div>
-                  </div>
-                </div>
-              </div>
+            
+            <div class="span3 text-center mobile_app" id="rionovo">
+              <img src="assets/img/slides/rionovo-3.png">
+              <h3>RioNovo</h3>
+              <label>Inhouse app for salesmen of building company in Brazil</label>
             </div>
-          </div>
-          <div>&nbsp;</div>
-          <div class="span4">
-            <div class="thumbnail">
-              <a href="#" data-toggle="modal" data-target="#ext3">
-                <img src="assets/img/slides/ext3.png" alt="extension screenshot" title="extension screenshot">
-              </a>
-              <div id="ext3" class="modal fade" tabindex="-1" role="dialog">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-body text-center">
-                      <img src="assets/img/slides/ext3.png" alt="extension screenshot" title="extension screenshot" class="img-responsive">
-                    </div>
-                  </div>
-                </div>
-              </div>
+
+            <div class="span3 text-center mobile_app" id="on">
+              <img src="assets/img/slides/on.com-1.png">
+              <h3>On.com</h3>
+              <label>ON.com is the newest way to meet people through photos. Like, comment, & send private messages with locals in your area and around the world.</label>
             </div>
+
+            <div class="span3 text-center mobile_app" id="friskee">
+              <img src="assets/img/slides/Friskee-3.png">
+              <h3>Friskee</h3>
+              <label>Friskee is a fun cool app that let's you share photos with people you match with. Swipe right to like someone or swipe left to skip.</label>
+            </div>
+
+            <div class="span3 text-center mobile_app" id="stunr">
+              <img src="assets/img/slides/stunr-1.png">
+              <h3>Stunr</h3>
+              <label>Stunr is a fun cool app for gay men that let's you share photos with people you match with. Swipe right to like someone or swipe left to skip.</label>
+            </div>
+
+            <div class="span6 text-center mobile_app" id="fns">
+              <img src="assets/img/slides/fns-1.png">
+              <h3>Business registration app</h3>
+              <label>App allows users send documents to the Federal Tax Service for registering their own business</label>
+            </div>
+            
+            <div class="span3 text-center mobile_app" id="caliente">
+              <img src="assets/img/slides/caliente-3.png">
+              <h3>Caliente</h3>
+              <label>Caliente is the #1 Latino dating app with MORE dates and relationships than all the rest.</label>
+            </div>
+
           </div>
         </div>
 
-      </div>
-    </div>
-
-  </div>
-
-</section>
 
 
+        <div class="row">
+          <div class="span6">
+            <h2>Web apps</h2>
+            <p>
+              I developed several web projects for budget organizations, rich internet applications and landing pages.
+            </p>
+            <strong>Known technologies:</strong><br>
+            <ul>
+              <li>
+                Asp.Net / C#
+              </li>
+              <li>
+                Node.js
+              </li>
+              <li>
+                PHP
+              </li>
+              <li>
+                HTML / HTML5
+              </li>
+              <li>
+                CSS
+              </li>
+              <li>
+                JavaScript / JQuery / Backbone
+              </li>
+              <li>
+                MSSQL / MySQL
+              </li>
+              <li>
+                MongoDB
+              </li>
+              <li>
+                XML / JSON / SOAP
+              </li>
+            </ul>
+          </div>
+          <div class="span6">
+            <h2>Browser extensions</h2>
+            <p>
+              I can develop any browser extension for Firefox, Google Chrome or Safari.  <br>
+              Also, I have own Google Chrome extension in Chrome Store.
+            </p>
 
-<section id="contacts" class="slice">
-  <header class="page-header">
-    <div class="container">
-      <div class="row">
-        <div class="span12">
-          <h1>Contacts</h1>
+            <strong>Known technologies:</strong><br>
+            <ul>
+              <li>
+                JavaScript
+              </li>
+              <li>
+                Google Chrome Extensions API
+              </li>
+              <li>
+                Working with Data through AJAX
+              </li>
+              <li>
+                VK social network API
+              </li>
+            </ul>
+          </div>
+        </div>
+    </section>
+
+
+
+    <section id="contacts" class="slice">
+      <header class="page-header">
+        <div class="container">
+          <div class="row">
+            <div class="span12">
+              <h1>Contacts</h1>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="container">
+        <div class="row">
+          <div class="span6">
+            <h3>
+              If you have any questions or interested in working with me, please contact me:
+            </h3>
+            <p>
+              <i class="icon-mail-alt"></i>&nbsp;<a href="mailto:k@simakov.it">k@simakov.it</a> <br>
+              <i class="icon-skype"></i>&nbsp;<a href="skype:gigabytetheone">gigabytetheone</a> 
+            </p>
+
+            <h3>
+              Another portfolio (on russian):
+            </h3>
+            <p>
+              <i class="icon-picture"></i>&nbsp;
+              <a href="http://brainstorage.me/GigabyteTheOne/portfolio" title="Brainstorage" target="_blank">
+                Portfolio on Brainstorage
+              </a>
+            </p>
+          </div>
+          <div class="span6 text-right">
+            <h3>
+              My social pages:
+            </h3>
+            <ul class="socialNetworkRounded">
+              <li>
+                <a href="https://github.com/GigabyteTheOne" class="iconWrapper" title="GitHub" target="_blank">
+                  <i class="icon-github"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/ks_simakov" class="iconWrapper" title="Twitter" target="_blank">
+                  <i class="icon-twitter-bird"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://plus.google.com/+KonstantinSimakov" class="iconWrapper" title="Google+" target="_blank">
+                  <i class="icon-gplus"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://vk.com/ks_simakov" class="iconWrapper" title="VK" target="_blank">
+                  <i class="fontello-icon-vk"></i>
+                </a>
+              </li> 
+              <li>
+                <a href="https://www.facebook.com/k.simakov" class="iconWrapper" title="Facebook" target="_blank">
+                  <i class="icon-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="http://linkedin.com/pub/konstantin-simakov/56/77a/894/" class="iconWrapper" title="Linkedin" target="_blank">
+                  <i class="icon-linkedin"></i>
+                </a>
+              </li>                
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-  </header>
-
-  <div class="container">
-    <div class="row">
-      <div class="span6">
-        <h3>
-          If you have any questions or interested in working with me, please contact me:
-        </h3>
-        <p>
-          <i class="icon-mail-alt"></i>&nbsp;<a href="mailto:k@simakov.it">k@simakov.it</a> <br>
-          <i class="icon-skype"></i>&nbsp;<a href="skype:gigabytetheone">gigabytetheone</a> 
-        </p>
-
-        <h3>
-          Another portfolio (on russian):
-        </h3>
-        <p>
-          <i class="icon-picture"></i>&nbsp;
-          <a href="http://brainstorage.me/GigabyteTheOne/portfolio" title="Brainstorage" target="_blank">
-            Portfolio on Brainstorage
-          </a>
-        </p>
-      </div>
-      <div class="span6 text-right">
-        <div class="span6 text-right">
-          <h3>
-            My social pages:
-          </h3>
-          <ul class="socialNetworkRounded">
-            <li>
-              <a href="https://github.com/GigabyteTheOne" class="iconWrapper" title="GitHub" target="_blank">
-                <i class="icon-github"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://twitter.com/ks_simakov" class="iconWrapper" title="Twitter" target="_blank">
-                <i class="icon-twitter-bird"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://plus.google.com/+KonstantinSimakov" class="iconWrapper" title="Google+" target="_blank">
-                <i class="icon-gplus"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://vk.com/ks_simakov" class="iconWrapper" title="VK" target="_blank">
-                <i class="fontello-icon-vk"></i>
-              </a>
-            </li> 
-            <li>
-              <a href="https://www.facebook.com/k.simakov" class="iconWrapper" title="Facebook" target="_blank">
-                <i class="icon-facebook"></i>
-              </a>
-            </li>
-            <li>
-              <a href="http://linkedin.com/pub/konstantin-simakov/56/77a/894/" class="iconWrapper" title="Linkedin" target="_blank">
-                <i class="icon-linkedin"></i>
-              </a>
-            </li>                
-          </ul>
-      </div>
-    </div>
-  </div>
-
-</section>
+    <div>&nbsp;</div>
+    <div>&nbsp;</div>
+    </section>
 
 
-<div>&nbsp;</div>
-<div>&nbsp;</div>
 
 
-<footer class="footer4">
-  <section id="mainFooter">
-    <div id="backToTop">
-      <div class="container"> 
-        <a href="#mainHeader" class="iconWrapper">
-          <i class="icon-up-open"></i>
-        </a>
-      </div>
-    </div>
-    <div class="container" id="footer">
 
-      <div class="row">
-        <div class="span6 contactWidget">
-
+    <footer class="footer4">
+      <section id="mainFooter">
+        <div id="backToTop">
+          <div class="container"> 
+            <a href="#mainHeader" class="iconWrapper scrollspy">
+              <i class="icon-up-open"></i>
+            </a>
+          </div>
         </div>
-        <div class="span6 text-right">
+      </section>
+      <section id="footerRights">
+        <div class="container">
+          <div class="row">
+            <div class="span8">
+              <p>Copyright © 2015 <a href="http://kadaria.github.io/" target="_blank">DariKa</a> / All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
 
-        </div>              
-      </div>
-    </div>
-  </section>
-  <section id="footerRights">
-    <div class="container">
-      <div class="row">
-        <div class="span8">
-          <p>Copyright © 2014 GigabyteTheOne / All rights reserved.</p>
+
+    <div class="modal_bg"></div>
+    <div class="modal_window">
+      <span class="close_modal">&times;</span>
+      <div class="galleryApp">
+        <div id="carousel" class="carousel slide">
+          <div class="carousel-inner">
+          </div>
+          <a class="carousel-control left" href="#carousel" data-slide="prev"></a>
+          <a class="carousel-control right" href="#carousel" data-slide="next"></a>
         </div>
       </div>
+      <div class="aboutApp text-center">
+        <h1></h1>
+        <label class="des"></label>
+        <hr>
+        <label class="year"><strong>Year: </strong><span></span></label>
+        <label class="client"><strong>Client: </strong><span></span></label>
+      </div>
     </div>
-  </section>
-</footer>
+
+    <!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter23536927 = new Ya.Metrika({id:23536927, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/23536927" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
+    </div>
 
 
-<!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter23536927 = new Ya.Metrika({id:23536927, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/23536927" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
-</div>
-
-
-</body>
+  </body>
 </html>

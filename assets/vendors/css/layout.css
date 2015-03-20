@@ -302,7 +302,7 @@ body.headerStyleBigLogo {
 
 /**** style 4 thin ***/
 body.headerStyleThin {
-	padding-top:61px;
+	padding-top:25px;
 }
 .headerStyleThin .mainNav {
 	margin-top:0;
@@ -404,35 +404,6 @@ p.credits {
 }
 /*responsive video*/
 
-.carousel {
-	margin-bottom:0;
-}
-.carousel-control {
-	top: -2.6em;
-	height: 25px;
-	border:0;
-	width: 25px;
-	-webkit-border-radius:0;
-	-moz-border-radius: 0;
-	border-radius: 0;
-	font-size: 15px;
-	opacity:1;
-}
-.carousel-control:link {
-	outline:none;
-}
-.carousel-control.left {
-	left: auto;
-	right: 25px;
-}
-.carousel-control.right {
-	left: auto;
-	right:0px;
-}
-.carousel-control i {
-	vertical-align: text-top;
-}
-/*CAROUSEL*/
 .projectInfo {
 	text-align:center;
 }
@@ -2728,8 +2699,8 @@ font-size:1em;
 }
  @media (min-width: 960px) and (max-width: 1199px) {
 .search input.span2 {width:90px;}
-.imgRounded {width:120px; height:120px;}
-}
+/*.imgRounded {width:120px; height:120px;}
+*/}
 
  @media only screen and (min-width: 960px) {
 /* .container, .navbar .container {
@@ -2820,8 +2791,8 @@ float:none;
 .search input.span3{width:110px;}
 .search input.span2 {width:55px;}
 
-.imgRounded {width:120px; height:120px;}
-
+/*.imgRounded {width:120px; height:120px;}
+*/
 }
  @media screen and (min-width: 480px) and (max-width: 767px) {
  body.headerStyleThin, body.headerStyleCenteredLogo, body.headerStyleBigLogo,.headerStyleBigLogo .mainNav {padding-top:0;}
