@@ -77,7 +77,7 @@ var data = {
   "friskee": {
     "type": "iphone",
     "name": "Friskee",
-    "des": "Friskee is a fun cool app that let's you share photos with people you match with. Swipe right to like someone or swipe left to skip. Only see people near you who are also playing the game. It's the most fun you will ever have meeting fun new people.<br><br><a href='http://getfriskee.com' target='_blank'>http://getfriskee.com</a><br><a href='https://itunes.apple.com/us/app/friskee/id910626301' target='_blank'>https://itunes.apple.com/us/app/friskee/id910626301</a>",
+    "des": "Friskee is a fun cool app that lets you share photos with people you match with. Swipe right to like someone or swipe left to skip. Only see people near you who are also playing the game. It's the most fun you will ever have meeting fun new people.<br><br><a href='http://getfriskee.com' target='_blank'>http://getfriskee.com</a><br><a href='https://itunes.apple.com/us/app/friskee/id910626301' target='_blank'>https://itunes.apple.com/us/app/friskee/id910626301</a>",
     "year": "2014-2015",
     "client": "Global Personals via TopTal",
     "img": [
@@ -91,7 +91,7 @@ var data = {
   "stunr": {
     "type": "iphone",
     "name": "Stunr",
-    "des": "Stunr is a fun cool app for gay men that let's you share photos with people you match with. Swipe right to like someone or swipe left to skip. Only see guys near you who are also playing the game. It's the most fun you will ever have meeting fun new people.<br><br><a href='http://www.stunr.com' target='_blank'>http://www.stunr.com</a><br><a href='https://itunes.apple.com/us/app/stunr-dating-for-gay-men/id911817123' target='_blank'>https://itunes.apple.com/us/app/stunr-dating-for-gay-men/id911817123</a>",
+    "des": "Stunr is a fun cool app for gay men that lets you share photos with people you match with. Swipe right to like someone or swipe left to skip. Only see guys near you who are also playing the game. It's the most fun you will ever have meeting fun new people.<br><br><a href='http://www.stunr.com' target='_blank'>http://www.stunr.com</a><br><a href='https://itunes.apple.com/us/app/stunr-dating-for-gay-men/id911817123' target='_blank'>https://itunes.apple.com/us/app/stunr-dating-for-gay-men/id911817123</a>",
     "year": "2014-2015",
     "client": "Global Personals via TopTal",
     "img": [
