@@ -157,7 +157,7 @@ $(document).ready(function() {
     $('.modal_window .aboutApp h1').text(data[project].name);
     $('.modal_window .aboutApp .des').html(data[project].des);
     $('.modal_window .aboutApp .year span').text(data[project].year);
-    $('.modal_window .aboutApp .client span').text(data[project].client);
+    $('.modal_window .aboutApp .client span').html(data[project].client);
     $('.modal_bg').css('display', 'block');
     $('.modal_window').css('display', 'block');
     $('#carousel').carousel();
