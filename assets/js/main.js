@@ -64,7 +64,7 @@ var data = {
     "name": "On.com",
     "des": "ON.com is the newest way to meet people through photos. Like, comment, & send private messages with locals in your area and around the world.<br><br><a href='http://on.com' target='_blank'>http://on.com</a><br><a href='https://itunes.apple.com/us/app/on.com-meet-chat-photos/id582052390' target='_blank'>https://itunes.apple.com/us/app/on.com-meet-chat-photos/id582052390</a>",
     "year": "2014-2015",
-    "client": "On.com via <a href='http://www.toptal.com/#discover-prodigious-architects'>TopTal</a>",
+    "client": "On.com via <a href='http://www.toptal.com/#discover-prodigious-architects' target='_blank'>TopTal</a>",
     "img": [
             "assets/img/slides/on.com-1.png",
             "assets/img/slides/on.com-2.png",
@@ -79,7 +79,7 @@ var data = {
     "name": "Friskee",
     "des": "Friskee is a fun cool app that lets you share photos with people you match with. Swipe right to like someone or swipe left to skip. Only see people near you who are also playing the game. It's the most fun you will ever have meeting fun new people.<br><br><a href='http://getfriskee.com' target='_blank'>http://getfriskee.com</a><br><a href='https://itunes.apple.com/us/app/friskee/id910626301' target='_blank'>https://itunes.apple.com/us/app/friskee/id910626301</a>",
     "year": "2014-2015",
-    "client": "Global Personals via <a href='http://www.toptal.com/#discover-prodigious-architects'>TopTal</a>",
+    "client": "Global Personals via <a href='http://www.toptal.com/#discover-prodigious-architects' target='_blank'>TopTal</a>",
     "img": [
             "assets/img/slides/Friskee-1.png",
             "assets/img/slides/Friskee-2.png",
@@ -121,7 +121,7 @@ var data = {
     "name": "Caliente",
     "des": "Caliente is the #1 Latino dating app with MORE dates & relationships than all the rest.<br><br><a href='http://www.caliente.com' target='_blank'>http://www.caliente.com</a><br><a href='https://itunes.apple.com/us/app/caliente-latin-dating-spanish/id682018891' target='_blank'>https://itunes.apple.com/us/app/caliente-latin-dating-spanish/id682018891</a>",
     "year": "2014-2015",
-    "client": "Global Personals via <a href='http://www.toptal.com/#discover-prodigious-architects'>TopTal</a>",
+    "client": "Global Personals via <a href='http://www.toptal.com/#discover-prodigious-architects' target='_blank'>TopTal</a>",
     "img": [
             "assets/img/slides/caliente-1.png",
             "assets/img/slides/caliente-2.png",
