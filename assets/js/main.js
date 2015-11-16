@@ -31,6 +31,77 @@ $(function () {
 
 // <a href='' target='_blank'></a><br><a href='' target='_blank'></a>
 var data = {
+  "ppix": {
+    "type": "iphone",
+    "name": "PostalPix",
+    "des": "PostalPix is a free app that lets you order real photo prints of pictures from your iPhone and Instagram.<br>With PostalPix, you can order prints that were captured with your iPhone or uploaded to your Instagram account. In 24-48 hours.<br><br><a href='http://www.postalpix.com' target='_blank'>http://www.postalpix.com/</a><br><a href='https://itunes.apple.com/us/app/postalpix/id408642635?mt=8' target='_blank'>https://itunes.apple.com/us/app/postalpix/id408642635?mt=8</a>",
+    "year": "2015",
+    "client": "PostalPix via <a href='http://www.toptal.com/#discover-prodigious-architects' target='_blank'>TopTal</a>",
+    "img": [
+            {
+              "image": "assets/img/slides/ppix-1.png",
+              "type": "iphone"
+            },
+            {
+              "image": "assets/img/slides/ppix-2.png",
+              "type": "iphone"
+            }
+    ]
+  },
+  "rionovosac": {
+    "type": "iphone",
+    "name": "Rio Novo SAC",
+    "des": "Rio Novo SAC is the app for housemates.<br><br>With Rio Novo SAC you can:<br><span class=\"point\">Call warranty repairs</span><span class=\"point\">Track plans</span><span class=\"point\">Track tickets schedule</span><span class=\"point\">Monitor your calls</span><span class=\"point\">Watch documents</span><br><br><a href='https://itunes.apple.com/us/app/rio-novo-sac/id1057928932?ls=1&mt=8' target='_blank'>https://itunes.apple.com/us/app/rio-novo-sac/id1057928932?ls=1&mt=8</a>",
+    "year": "2015",
+    "client": "RioNovo. Brazil",
+    "img": [
+            {
+              "image": "assets/img/slides/rionovosac-1.png",
+              "type": "iphone"
+            },
+            {
+              "image": "assets/img/slides/rionovosac-2.png",
+              "type": "iphone"
+            },
+            {
+              "image": "assets/img/slides/rionovosac-3.png",
+              "type": "iphone"
+            }
+    ]
+  },
+  "events": {
+    "type": "mixed",
+    "name": "Events Apps",
+    "des": "App made for people participating different conferences.<br>In these application you will find:<br><br><span class=\"point\">Information on Congress and organization</span><span class=\"point\">Iterative plan of the stands</span><span class=\"point\">Complete schedule</span><span class=\"point\">Exhibitor List</span><span class=\"point\">Social Agenda</span><span class=\"point\">Tourist information and Entertainment</span><span class=\"point\">News & Announcements Congress</span><br>And beyond that:<br><span class=\"point\">Check lectures as favorites to save them on your calendar</span><span class=\"point\">Make notes for each lecture directly on mobile</span><span class=\"point\">Share your lecture and notes with friends by mail, SMS or Whatsapp</span><br><br>Applications:<br><br>CBSoja<br><a target='_blank' href='https://itunes.apple.com/us/app/cbsoja/id988943094?ls=1&mt=8'>https://itunes.apple.com/us/app/cbsoja/id988943094?ls=1&mt=8</a><br><br>CBSementes<br><a target='_blank' href='https://itunes.apple.com/us/app/cbsementes/id1025021190?mt=8'>https://itunes.apple.com/us/app/cbsementes/id1025021190?mt=8</a><br><br>Abraves 2015<br><a target='_blank' href='https://itunes.apple.com/us/app/abraves-2015/id1025023445?mt=8'>https://itunes.apple.com/us/app/abraves-2015/id1025023445?mt=8</a><br><br>Epilepsy 2015<br><a target='_blank' href='https://itunes.apple.com/us/app/epilepsy-2015/id1044654365?mt=8'>https://itunes.apple.com/us/app/epilepsy-2015/id1044654365?mt=8</a>",
+    "year": "2015",
+    "client": "Brazil",
+    "img": [
+            {
+              "image": "assets/img/slides/events-1.png",
+              "type": "ipad"
+            },
+            {
+              "image": "assets/img/slides/events-2.png",
+              "type": "iphone"
+            },
+            {
+              "image": "assets/img/slides/events-3.png",
+              "type": "iphone"
+            },
+            {
+              "image": "assets/img/slides/events-4.png",
+              "type": "ipad"
+            },
+            {
+              "image": "assets/img/slides/events-5.png",
+              "type": "iphone"
+            },
+            {
+              "image": "assets/img/slides/events-6.png",
+              "type": "iphone"
+            }
+    ]
+  },
   "budget": {
     "type": "ipad",
     "name": "\"Open Budget\" app prototype",
@@ -93,7 +164,7 @@ var data = {
     "name": "Stunr",
     "des": "Stunr is a fun cool app for gay men that lets you share photos with people you match with. Swipe right to like someone or swipe left to skip. Only see guys near you who are also playing the game. It's the most fun you will ever have meeting fun new people.<br><br><a href='http://www.stunr.com' target='_blank'>http://www.stunr.com</a><br><a href='https://itunes.apple.com/us/app/stunr-dating-for-gay-men/id911817123' target='_blank'>https://itunes.apple.com/us/app/stunr-dating-for-gay-men/id911817123</a>",
     "year": "2014-2015",
-    "client": "Global Personals via TopTal",
+    "client": "Global Personals via <a href='http://www.toptal.com/#discover-prodigious-architects' target='_blank'>TopTal</a>",
     "img": [
             "assets/img/slides/stunr-1.png",
             "assets/img/slides/stunr-2.png",
@@ -137,22 +208,33 @@ $(document).ready(function() {
   $('.mobile_app').on('click', function() {
     var project = $(this).attr('id');
     $('#carousel .carousel-inner').html('');
-    if (data[project].type == 'ipad') {
-      $.each(data[project].img, function(i){
+    var type = data[project].type;
+
+    var iPhoneIndex = 0;
+    $.each(data[project].img, function(i){
+      var image = data[project].img[i];
+      var imageUrl = image;
+      if (image.type) {
+        type = image.type;
+      }
+      if (image.image) {
+        imageUrl = image.image;
+      }
+      if (type == 'ipad') {
+        iPhoneIndex = 0;
         $('<div>').appendTo('#carousel .carousel-inner').addClass('item');
-        $('<img>').appendTo('#carousel .carousel-inner .item:last-child').attr('src', data[project].img[i]);
-      })
-    } if (data[project].type == 'iphone') {
-      $.each(data[project].img, function(i){
-        if (( i + 1 ) % 2) {
-          $('<div>').appendTo('#carousel .carousel-inner').addClass('item');
-          $('<img>').appendTo('#carousel .carousel-inner .item:last-child').attr('src', data[project].img[i]);
-          i++;
-          $('<img>').appendTo('#carousel .carousel-inner .item:last-child').attr('src', data[project].img[i]);
-        };
-        $('#carousel .carousel-inner .item img').css('max-width', '50%').css('display', 'inline-block');
-      })
-    };
+        $('<img>').appendTo('#carousel .carousel-inner .item:last-child').attr('src', imageUrl);
+      }
+      else if (type == 'iphone') {
+        if (iPhoneIndex % 2 == 0) {
+          $('<div>').appendTo('#carousel .carousel-inner').addClass('item'); 
+        }
+        var element = $('<img>').appendTo('#carousel .carousel-inner .item:last-child').attr('src', imageUrl);
+        element.css('max-width', '50%').css('display', 'inline-block');
+        iPhoneIndex++;
+      }
+    });
+
     $('.carousel-inner .item:first-child').addClass('active');
     $('.modal_window .aboutApp h1').text(data[project].name);
     $('.modal_window .aboutApp .des').html(data[project].des);
