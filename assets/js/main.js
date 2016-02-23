@@ -31,6 +31,31 @@ $(function () {
 
 // <a href='' target='_blank'></a><br><a href='' target='_blank'></a>
 var data = {
+  "invoice": {
+    "type": "mixed",
+    "name": "Invoice Ahead",
+    "des": "Invoice ahead will assist you to create professional looking invoices on the go.<br>Never waste your precious time by doing unproductive paperwork.<br>This elegantly simple and innovative app will do it all for you and even do it better.<br><br><a target='_blank' href='https://itunes.apple.com/ru/app/invoice-ahead-create-invoices/id924725128?l=en&mt=8'>https://itunes.apple.com/ru/app/invoice-ahead-create-invoices/id924725128?l=en&mt=8</a>",
+    "year": "2016",
+    "client": "<a target='_blank' href='http://www.btoj.com.au'>B to J Apps. Sydney, AU</a>",
+    "img": [
+            {
+              "image": "assets/img/slides/invoice-1.png",
+              "type": "ipad"
+            },
+            {
+              "image": "assets/img/slides/invoice-2.png",
+              "type": "ipad"
+            },
+            {
+              "image": "assets/img/slides/invoice-3.png",
+              "type": "iphone"
+            },
+            {
+              "image": "assets/img/slides/invoice-4.png",
+              "type": "iphone"
+            }
+    ]
+  },
   "ppix": {
     "type": "iphone",
     "name": "PostalPix",
@@ -211,6 +236,15 @@ $(document).ready(function() {
     var type = data[project].type;
 
     var iPhoneIndex = 0;
+
+    if (data[project].img.length <= 2) {
+      $('.carousel-control').hide();
+    }
+    else {
+      $('.carousel-control').show();
+    }
+    // $('.carousel-control').hidden = data[project].img.length <= 2;
+
     $.each(data[project].img, function(i){
       var image = data[project].img[i];
       var imageUrl = image;
