@@ -81,7 +81,7 @@ section .page-header {
   border-right: 1px solid #aaa;
   padding: 0 1.66em 0 0 ;
 }
-.bulleRight:before {
+/*.bulleRight:before {
   content: "";
   position: absolute;
   left: 205px;
@@ -102,7 +102,7 @@ section .page-header {
   border-top: 20px solid transparent;
   border-left: 15px solid #fff;
   border-bottom: 20px solid transparent;
-}
+}*/
 
 .hobbies h5 {
   font-size: 20px;
