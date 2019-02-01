@@ -31,6 +31,31 @@ $(function () {
 
 // <a href='' target='_blank'></a><br><a href='' target='_blank'></a>
 var data = {
+  "appycouple": {
+    "type": "iphone",
+    "name": "AppyCouple Wedding App",
+    "des": "The wedding hub for you and your guests.<br/>Appy Couple consolidates all your wedding sharing needs into a dynamic app and wedding website. No building, no coding, just personalize with your details and both tools are created—automatically and beautifully!<br/><br/>Everything you need in one place: Sharing, Delighting and Editing<br><br><a target='_blank' href='https://itunes.apple.com/us/app/appy-couple/id492345619?mt=8'>https://itunes.apple.com/us/app/appy-couple/id492345619?mt=8</a>",
+    "year": "2016",
+    "client": "<a target='_blank' href='http://www.appycouple.com'>AppyCouple</a>",
+    "img": [
+            {
+              "image": "assets/img/slides/appycouple-1.png",
+              "type": "iphone"
+            },
+            {
+              "image": "assets/img/slides/appycouple-2.png",
+              "type": "iphone"
+            },
+            {
+              "image": "assets/img/slides/appycouple-3.png",
+              "type": "iphone"
+            },
+            {
+              "image": "assets/img/slides/appycouple-4.png",
+              "type": "iphone"
+            }
+    ]
+  },
   "invoice": {
     "type": "mixed",
     "name": "Invoice Ahead",
