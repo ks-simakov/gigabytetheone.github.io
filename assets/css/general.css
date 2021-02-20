@@ -141,7 +141,7 @@ section .page-header {
   color: #888;
 }
 
-.socialNetworkRounded li {
+.float-none li {
   float: none;
 }
 
