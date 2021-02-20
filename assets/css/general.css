@@ -141,6 +141,10 @@ section .page-header {
   color: #888;
 }
 
+.socialNetworkRounded li {
+  float: none;
+}
+
 .socialNetworkRounded li:before {
   display: none;
 }
