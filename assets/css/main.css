@@ -8,15 +8,11 @@ p {
 }
 
 
-#about .work-experience {
-	/*font-size: 0.85em*/
-}
-
-#about .work-experience h1 {
+.work-experience h1 {
 	font-size: 1.4em
 }
 
-#about .work-experience .bulle p {
+.work-experience .bulle p {
 	font-size: 1em;	
 }
 
