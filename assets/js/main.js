@@ -88,7 +88,7 @@ var data = {
   "invoice": {
     "type": "mixed",
     "name": "Invoice Ahead",
-    "des": "Invoice ahead will assist you to create professional looking invoices on the go.<br>Never waste your precious time by doing unproductive paperwork.<br>This elegantly simple and innovative app will do it all for you and even do it better.<br><br><a target='_blank' href='https://itunes.apple.com/ru/app/invoice-ahead-create-invoices/id924725128?l=en&mt=8'>https://itunes.apple.com/ru/app/invoice-ahead-create-invoices/id924725128?l=en&mt=8</a>",
+    "des": "Invoice ahead will assist you to create professional looking invoices on the go.<br>Never waste your precious time by doing unproductive paperwork.<br>This elegantly simple and innovative app will do it all for you and even do it better.<br><br><a target='_blank' href='https://apps.apple.com/us/app/invoice-maker-simple/id704992962?ls=1'>https://apps.apple.com/us/app/invoice-maker-simple/id704992962?ls=1</a>",
     "year": "2016",
     "client": "<a target='_blank' href='http://www.btoj.com.au'>B to J Apps. Sydney, AU</a>",
     "img": [
